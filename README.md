@@ -43,3 +43,9 @@ python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.002 --price
 
 All logs are stored in bot.log
 
+---
+
+## 📸 Sample Output
+
+![Sample Output](sample_output.png)
+
