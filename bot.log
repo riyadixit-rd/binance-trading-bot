@@ -1,0 +1,12 @@
+2026-04-03 12:05:56,265 - INFO - Order Request: BTCUSDT BUY MARKET 0.001 None
+2026-04-03 12:06:00,243 - INFO - Response: {}
+2026-04-03 12:07:17,942 - INFO - Order Request: BTCUSDT SELL LIMIT 0.001 60000.0
+2026-04-03 12:07:22,958 - INFO - Response: {}
+2026-04-03 12:20:10,820 - INFO - Order Request \u2192 BTCUSDT BUY MARKET 0.001 None
+2026-04-03 12:20:11,568 - ERROR - Binance API Error \u2192 APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-04-03 12:20:29,805 - INFO - Order Request \u2192 BTCUSDT SELL LIMIT 0.001 60000.0
+2026-04-03 12:20:30,723 - ERROR - Binance API Error \u2192 APIError(code=-4024): Limit price can't be lower than 63416.12.
+2026-04-03 12:21:28,813 - INFO - Order Request \u2192 BTCUSDT BUY MARKET 0.002 None
+2026-04-03 12:21:29,653 - INFO - API Response \u2192 {'orderId': 13019990462, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJdc2a67cfae58124b8327e3', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0020', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1775199091847}
+2026-04-03 12:21:54,249 - INFO - Order Request \u2192 BTCUSDT SELL LIMIT 0.002 65000.0
+2026-04-03 12:21:55,125 - INFO - API Response \u2192 {'orderId': 13019990613, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ41ff2a00e9eb4e0898249a', 'price': '65000.00', 'avgPrice': '0.00', 'origQty': '0.0020', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1775199117319}
