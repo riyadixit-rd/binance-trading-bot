@@ -6,8 +6,8 @@ from binance.exceptions import BinanceAPIException
 # ==============================
 # 🔐 ADD YOUR FUTURES TESTNET KEYS HERE
 # ==============================
-API_KEY = "BiXaTo0g7HKXzAcxc9WAze8GcoAFGJsRfHcbRkAtNCd0sMmDOafWwEyJaUEhJriY"
-API_SECRET = "9MCFQQKtPZiGyr04Uby38F357lcUV2uAeOjVvqu1lrGzBrVZHRMILDegUvyvcTbl"
+API_KEY = "YOUR_API_KEY"
+API_SECRET = "YOUR_SECRET_KEY"
 
 # ==============================
 # 🔧 LOGGING CONFIGURATION
